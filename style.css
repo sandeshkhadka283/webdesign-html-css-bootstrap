@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0x;
+    font-weight: bold;
+}
+
+.right-menu li {
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.right-menu li .fa {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.navbar-brand img {
+    width: 65px;
+}
+
+.navbar-brand {
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.header {
+    background: rgb(233, 231, 231);
+}
+
+.collapse {
+    padding: 0 37px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.navbar-toggler .fa {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.banner-img {
+    width: 90%;
+    margin: 69px 99px;
+}
+
+.banner-img img {
+    width: 60%;
+    margin-bottom: -110px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.banner-title h1 {
+    font-size: 55px;
+    background: rgb(0, 0, 0, 0.75);
+    color: #fff;
+    line-height: 70px;
+    padding: 0 10px 0 10px;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+}
+
+
+/*----description box second part-----*/
+
+.data {
+    padding: 100px 0;
+}
+
+.data1 {
+    margin: 80px 0;
+}
+
+.title-style h1 {
+    padding: 40px 0;
+}
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    weight: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.title-style::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: #030303;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.title-style::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: #141313;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.img1 {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.btn-explore {
+    width: 150px;
+    padding: 10px 0;
+    outline: none;
+    border: 2px solid saddlebrown;
+    border-radius: 3px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.img1:hover .btn-explore {
+    transform: translate(-50%, 50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.img1:hover .overlay {
+    opacity: 0.5;
+    height: 100%;
+}
+
+
+/*----------offer-----*/
+
+.offer {
+    background-image: url(../images/laptop-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    margin: initial;
+}
+
+.follow {
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #fffff8;
+    margin-bottom: 20px;
+}
+
+.follow a {
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.offer img {
+    width: 50%;
+    height: 400px;
+    margin: -100px;
+    margin-top: 150px;
+}
+
+
+/*-----blogs----*/
+
+.blog1 {
+    margin: 250px 0 150px 0;
+}
+
+.blog-img1 {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+
+.blog-img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog1 h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/*-------brands-----*/
+
+.brands {
+    margin: 80px;
+}
+
+.brand-logo {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+.brand-logo img {
+    width: 100px;
+    margin: 50px auto;
+}
+
+
+/*-------footer part-----*/
+
+.footer {
+    margin: 10px;
+    background: #f5f6fc;
+}
+
+.payment,
+.appdownload {
+    margin: 50px auto;
+}
+
+.payment img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.appdownload img {
+    width: 160px;
+}
+
+.footer h5 {
+    margin-bottom: 19px;
+}
+
+.footer h5:before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #4f74ef;
+    top: 80px;
+    position: absolute;
+}
+
+.footer-icons {
+    align-items: right;
+}
+
+.footer-icons .fa {
+    margin: 0 10px auto;
+    padding-right: 0%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*------small devices-----*/
+
+@media only screen and (max-width:900px) {
+    .banner-img {
+        width: 78%;
+        margin: 40% auto;
+    }
+    .banner-title {
+        top: 180px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .banner-title h1 {
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+    .title-style h1 {
+        font-size: 25px;
+    }
+    .offer img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .footer-icons {
+        align-items: center;
+    }
+    .copyright {
+        align-items: center;
+    }
+}
+
+
+/*----downlaod part----*/
+
+.appinfo {
+    padding: 100px;
+    margin: 40px;
+    border: solid black;
+    border-radius: 1%;
+}
+
+
+/*------------registerstion part----------------*/
+
+.login {
+    background-image: linear-gradient(to left, #EEB462, #CFF4D2);
+    margin-top: 0px;
+    padding: 100px;
+}
+
+.loginleft {
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.loginleft img {
+    margin-top: 50px;
+    margin-bottom: 18px;
+    width: 80px;
+    animation: mover 1s infinite alternate;
+}
+
+.loginleft p {
+    padding: 20px 20px 0;
+}
+
+.loginleft .btn-success {
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: wheat;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.loginleft .btn-success {
+    background: #000;
+}
+
+.loginleft .btn-success:hover {
+    background: #ff9800;
+}
+
+.loginright {
+    border: none;
+    background: #f8f8f8;
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    padding: 40px;
+}
+
+.loginright h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.register-form {
+    padding: 30px;
+}
+
+.loginright .btn-primary {
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: black;
+    font-weight: 600;
+    color: wheat;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.loginright .btn-primary:hover {
+    background: #ff9800;
+    color: white;
+}
+
+
+/*--------portfolo part-------*/
+
+.portfolioinfo {
+    padding: 50px;
+    align-items: center;
+    margin: 100px;
+    border: solid black;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
